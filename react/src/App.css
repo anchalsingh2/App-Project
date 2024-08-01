@@ -1,12 +1,17 @@
-h5 {
+h6 {
   margin: 0px;
   padding: 15px;
   padding-left: 10px;
   font-family: sans-serif;
   font-weight:bold; 
   display: block;
+  
+
 }
 
+.App {
+  text-align: center;
+} 
 
 table {
   padding: 3px;
@@ -21,19 +26,19 @@ input[type='text'], input[type='email']{
   width: 95%;
 }
 
-/* table,
+
 td,
 tr {
   border: 1.3px solid #aaa;
   border-collapse: collapse;
   padding: 3px;
-  
-} */
+  text-align: left;
+} 
 
 th {
   background-color: lightgrey;
   font-weight: normal;
-  border: 1px #aaa solid;
+  border: 1.3px #aaa solid;
 }
 
 form{

@@ -60,7 +60,9 @@ const App = () => {
         customers={customers}
         selectedCustomerId={selectedCustomer.id}
         onCustomerSelect={handleCustomerSelect}
+        
       />
+   
       <CustomerAddUpdateForm
         formTitle={formTitle}
         customer={selectedCustomer}
