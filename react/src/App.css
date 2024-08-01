@@ -41,6 +41,23 @@ div#root {
   background-color: lightgrey;
   width: 350px;
 }
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  width: 350px;
+  margin: auto;
+  background-color: #f3f3f3;
+}
+
+
+.form-container {
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+
+}
 
 .boxed {
   border: 1.5px solid #aaa;
