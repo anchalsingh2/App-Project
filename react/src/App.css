@@ -12,20 +12,23 @@ table {
   padding: 3px;
   margin: 5px;
   background-color: white;
+  width:"100%";
   font-family: monospace;
+  border-collapse: collapse;
 }
 
 input[type='text'], input[type='email']{
   width: 95%;
 }
 
-table,
+/* table,
 td,
 tr {
   border: 1.3px solid #aaa;
   border-collapse: collapse;
   padding: 3px;
-}
+  
+} */
 
 th {
   background-color: lightgrey;
@@ -89,6 +92,15 @@ table#customer-add-update tbody tr td.label{
   text-align: right;
 }
 
+.table-container {
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: auto;
+  max-height: 300px; 
+}
 #customer-list, table#customer-add-update {
   width: inherit;
   margin:0px;
